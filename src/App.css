@@ -1,0 +1,163 @@
+.fondo{
+    background-color: #f08f8f;
+}
+
+.fondo2{
+    background-color: #7c4949;
+}
+
+.f{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.e{
+    background-color: #eec4c4;
+}
+.g{
+    text-align: center;
+}
+
+/*Detalle*/
+.descripcion{
+    border: solid 1px #000000;
+    background-clip: border-box;
+    padding-bottom: 10px;
+    margin: left;
+    width:60%;
+    height:"300px";  
+    background-color: aliceblue;
+    border-width: thick;
+}
+
+.imagen{
+    float: right;
+    border: solid 1px #000000;
+    border-width: thick;
+    width: 30%;  
+}
+
+#comprar{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+
+.name{
+    background-clip: border-box;
+    padding-bottom: 1px;
+    margin: auto;
+    background: #ad5c5c;
+}
+.precio{
+    background-clip: border-box;
+    padding-bottom: 1px;
+    margin: auto;
+    background: #a88989;
+}
+
+.cant{
+    background-clip: border-box;
+    padding-bottom: 1px;
+    margin: auto;
+    background: #a7a2a2;
+}
+
+.prod{
+    color: #ff0000;
+}
+
+.b{
+  background-color: #ecf7c7;
+}
+
+.estado{
+    font-size: 30px;
+    color: #000000;
+    width:70%;
+}
+
+/*registrar/inicio*/
+
+.a{
+    background-color: lightblue;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+}
+
+.form{  
+    font-family: verdana;
+    font-size: 20px;
+    margin:1px 1px;
+    padding:10px;
+    font-size:italic;
+    background-color:#cfc;
+    color:#000
+}
+
+#send{
+    font-size: 30px;
+    background-color:rgba(187, 77, 25, 0.548);
+    border-radius: 6px;
+    border: 2px solid #000000;
+}
+
+#del{
+    font-size: 30px;
+    border-radius: 6px;
+    border: 2px solid #000000;
+}
+
+.menu{
+    border: solid 1px #919090;
+}
+
+/*buscador*/
+.d{
+    margin-bottom:40px;
+    display:flex;
+    position:realtive;
+    width:30%;
+    box-shadow:
+     1px 1px 0 rgb(22, 160, 133),
+     2px 2px 0 rgb(22, 160, 133),
+     3px 3px 0 rgb(22, 160, 133),
+     4px 4px 0 rgb(22, 160, 133),
+     5px 5px 0 rgb(22, 160, 133),
+     6px 6px 0 rgb(22, 160, 133),
+     7px 7px 0 rgb(22, 160, 133);
+}
+
+#busqueda{
+    flex:1;
+    padding:0.6em;
+    border:0.2em solid rgb(26, 188, 156);
+}
+
+.c{
+    display:block;
+    font:1.2em 'Montserrat Alternates';
+    padding:0.6em 0.8em;
+    background-color:rgb(26, 188, 156);
+    color:white;
+    border:none;
+  }
+
+#img{
+    background-color: red;
+}
+
+#card{
+    width: 16rem;
+    min-height:100px;
+    margin-bottom:10px;
+    height:"300px";
+    
+}
