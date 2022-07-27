@@ -10,14 +10,17 @@ function Detalle1(){
     const [loading,setLoading] = useState(true)
     const [estado,setEstado]=useState("")
     const [cantidad,setCantidad]=useState("")
+    const [description,setDescription]=useState("")
     useEffect(
         ()=>{
             const request = async ()=>{
                 try{
                     setLoading(true)
-                    
                     const resault = await fetch("https://api.mercadolibre.com/items/"+id)
                     const response = await resault.json()
+                    const a = await fetch("https://api.mercadolibre.com/items/"+id+"/description")
+                    const b = await a.json()
+                    setDescription(b.plain_text)
                     setProducto(response)
                     setCantidad(response.available_quantity)
                     setLoading(false)
@@ -51,6 +54,8 @@ function Detalle1(){
                     <label>Descripcion: </label>
                     <div>
                         <li>Condicion: {product.condition}</li>
+                        <li>{description}</li>
+                        {/*
                        <>
                         {product.tags?.map((dato,index)=>{
                             return(
@@ -58,7 +63,8 @@ function Detalle1(){
                                     Tags descriptivo: "{dato}"
                             </li>)
                         })} 
-                        </>  
+                        </>
+                    */}
                     </div>
                 </Col>
                 <Col sm={4} className="imagen" >
